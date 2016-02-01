@@ -8,8 +8,7 @@ Stack: PHP, MySQL, HTML, CSS, Javascript, jQuery, Bootstrap, Sublime</br>
 Home Page
 <a href="http://picasion.com/"><img src="http://i.picasion.com/pic81/9f3cd471a20377fd6c82ffe26f7cf00e.gif" width="450" height="215" border="0" alt="http://picasion.com/" /></a><br /><a href="http://picasion.com/"> </a>
 
-<a href="http://picasion.com/"><img src="http://i.picasion.com/pic81/459bbe2e14e52a4e724523526951d459.gif" width="450" height="214" border="0" alt="http://picasion.com/" /></a><br /><a href="http://picasion.com/">http://picasion.com/</a>
-
+Pull down animation
 <a href="http://picasion.com/"><img src="http://i.picasion.com/pic81/64dedc8332af9b69f23f78efb909f591.gif" width="450" height="214" border="0" alt="http://picasion.com/" /></a><br /><a href="http://picasion.com/"> </a>
 
 <a href="http://picasion.com/"><img src="http://i.picasion.com/pic81/bdcb978dd44691a77a9586d3c10c6712.gif" width="450" height="214" border="0" alt="http://picasion.com/" /></a><br /><a href="http://picasion.com/"> </a>
