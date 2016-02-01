@@ -6,6 +6,8 @@ Provide IT support onsite and remotely</br>
 Stack: PHP, MySQL, HTML, CSS, Javascript, jQuery, Bootstrap, Sublime</br>
 
 Home Page</br>
+Automatically change picture
+Apply the form in the buttom
 <a href="http://picasion.com/"><img src="http://i.picasion.com/pic81/9f3cd471a20377fd6c82ffe26f7cf00e.gif" width="450" height="215" border="0" alt="http://picasion.com/" /></a><br /><a href="http://picasion.com/"> </a>
 
 Pull down animation</br>
@@ -14,9 +16,9 @@ Pull down animation</br>
 Mouse on animation</br>
 <a href="http://picasion.com/"><img src="http://i.picasion.com/pic81/bdcb978dd44691a77a9586d3c10c6712.gif" width="450" height="214" border="0" alt="http://picasion.com/" /></a><br /><a href="http://picasion.com/"> </a>
 
-Show Picture in full size</br>
+Show Picture/Video in full size</br>
 <a href="http://picasion.com/"><img src="http://i.picasion.com/pic81/e22094154783a30d74b55c4b04c01367.gif" width="450" height="215" border="0" alt="http://picasion.com/" /></a><br /><a href="http://picasion.com/"></a>
 
 Back-end</br>
-Blackboard and Statistic
+Blackboard and Statistic</br>
 <a href="http://picasion.com/"><img src="http://i.picasion.com/pic81/974e61b7307a529effc2a53d25a0cd4a.gif" width="450" height="215" border="0" alt="http://picasion.com/" /></a><br /><a href="http://picasion.com/"></a>
