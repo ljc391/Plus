@@ -1,0 +1,835 @@
+.title { 
+	display: inline;
+	white-space:nowrap; 
+
+
+}
+.title h1{
+	margin-bottom: 0px;
+	white-space:nowrap; 
+
+}
+.title a{
+    text-decoration: none;
+    font-size: 40px;
+    color: black;   
+}
+.title p{
+  text-align: right;
+  margin-top: -50px;
+  margin-right: 20px;
+}
+.title #lan{
+    text-align: right;
+    text-decoration: none;
+    font-size: 15px;
+    color: black;   
+}
+.title #lan:hover{ 
+    color: gray;   
+}
+.title #icon{
+  margin-top: -80px;
+}
+ #rightcon{
+  padding-left: 50px;
+ }
+ #rightcon span{
+  color: red;
+ }
+ .slider2 {
+  position: relative;
+  width: 100%;
+  height: 470px;
+  border-bottom: 1px solid #ddd; 
+  text-align: center; 
+} 
+.slider {
+  position: relative;
+  width: 100%;
+  height: 470px;
+  border-bottom: 1px solid #ddd; 
+  text-align: center;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+ 
+
+.slide {
+  background: transparent url('') center center no-repeat;
+  background-size: cover;
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+}
+
+.active-slide {
+    display: block;
+}
+.slide-copy{
+  display: inline;
+}
+.slide-copy h1 {
+  color: #363636;  
+  display: inline;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400;
+  
+  font-size: 40px;  
+
+}
+
+.slide-copy h2 {
+  color: #b7b7b7;
+  
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400;
+  
+  font-size: 40px;
+  margin: 5px;
+}
+
+.slide-copy p {
+  color: #959595;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.15em;
+  line-height: 1.75em;
+  margin-bottom: 15px;
+  margin-top: 16px;
+}
+.slide-copy button {
+  background-color: white;
+  border-radius: 5px;
+}
+
+.slide-img {
+  text-align: right;
+}
+
+/* Slide feature */
+#s4 {
+  text-align: center;
+  background-image: url('school/New York University/IMG_1939.jpg');
+  height: 470px;
+}
+ 
+#s2 {
+  text-align: center;
+  background-image: url('company/Google 5.jpg');
+  height: 470px;
+}
+#s3 {
+  text-align: center;
+  background-image: url('school/State University of New York at Albany/IMG_4417.jpg');
+  height: 470px;
+}
+#s1 {
+  text-align: center; 
+  height: 470px; 
+  background-image: url('school/Cornell Medical College/IMG_1912.jpg');
+}
+.slider2 #s1{ 
+}
+.slider2 #s1 img{
+  margin-top: 150px;
+  height: 200px;  
+  margin-left: 0px;
+ 
+}
+.slider2 #s1 h1{  
+  margin-left: 0px;
+  padding-top:0px;
+ 
+}
+ 
+
+
+.slide-feature a {
+  display: block;
+  color: #6fc5e0;
+  
+  font-family: "HelveticaNeueMdCn", Helvetica, sans-serif;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400;
+  
+  font-size: 20px;
+}
+
+.slider-nav { 
+  display: none;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.arrow-prev {
+  margin-right: 45px;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 9px;
+}
+
+.arrow-next {
+  margin-left: 45px;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 9px;
+}
+
+.slider-dots {
+  list-style: none;
+  display: inline-block;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+.slider-dots li {
+  color: #bbbcbc;
+  display: inline;
+  font-size: 30px;
+  margin-right: 5px;
+}
+
+.slider-dots li.active-dot {
+  color: #363636;
+}
+ 
+.nav{
+	background-color:  #888;
+	padding-top: 0px;
+	padding-bottom: 0px; 
+  text-align: center;  
+  padding-left: 0px;
+  padding-right: 0px; 
+  z-index: 20;
+
+ 
+}
+
+ 
+body, ul.navigation, ul.navigation li, ul.navigation ul, a{ 
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    text-decoration: none;
+    z-index: 999;
+
+}
+ul.navigation,ul.navigation li {
+    list-style: none;
+}
+ul.navigation li {
+    position: relative;
+    float: left;
+}
+
+ul.navigation{
+ text-align: center;
+ width: 100%;
+ background-color:  #888;
+
+}
+/* 選單 li 裡面連結之樣式 */
+ul.navigation li a{
+  width: 140px;
+    display: block;
+    padding: 12px 10px;
+    background: #888;
+    color: #FFF;
+}
+/* 特定在第一層，以左邊灰線分隔 */
+ul.navigation > li > a{
+    border-bottom: 1px solid #888;    
+    border-left: 1px solid #888;
+}
+ul.navigation > li > a:hover{
+	text-decoration: none;
+    color: #666;
+    background: #DDD
+}
+/* 特定在第一層 > 第二層之後下拉部分之樣式 */
+ul.navigation li ul{
+    display: none;
+    float: left;
+    position: absolute;
+    left: 0;    
+    margin: 0;
+}
+/* 當第一層選單被觸發時，指定第二層顯示 */
+ul.navigation li:hover > ul{
+	text-decoration: none;
+    display: block;
+}
+/* 特定在第二層或之後下拉部分 li 之樣式 */
+ul.navigation ul li {
+    border-bottom: 1px solid #DDD;
+}
+/* 特定在第二層或之後下拉部分 li （最後一項不要底線）之樣式 */
+ul.navigation ul li:last-child {
+    border-bottom: none;
+}
+/* 第二層或之後 選單 li 之樣式 */
+ul.navigation ul a {
+    width: 140px;
+    padding: 10px 12px;    
+    color: #666;        
+    background: #EEE;
+}
+ul.navigation ul a:hover {  
+	text-decoration: none;      
+    background: #CCC;    
+}
+/* 第三層之後，上一層的選單觸發則顯示出來（皆為橫向拓展） */
+ul.navigation ul li:hover > ul{
+	text-decoration: none;
+    display: block;
+    position: absolute;
+    top: 0;    
+    left: 100%;
+}
+/* 箭頭向下 */
+.arrow-bottom {
+    display: inline-block;
+    margin-left: 5px;
+    border-top: 4px solid #FFF;
+    border-right: 4px solid transparent;    
+    border-left: 4px solid transparent;        
+    width: 1px;
+    height: 1px;
+}
+/* 箭頭向右 */
+.arrow-right {
+    display: inline-block;
+    margin-left: 12px;    
+    border-top: 3px solid transparent;
+    border-bottom: 3px solid transparent;
+    border-left: 3px solid #666;        
+    width: 1px;
+    height: 1px;
+}
+.company .row{
+  padding-top: 20px; 
+}
+.company #logo{
+  margin-top: 30px;
+}
+.company #com{
+  height: 100px;
+}
+.company .col-md-5{
+  margin-left: 100px;
+
+}
+.company h3{
+  padding-left: 100px;
+  margin-top: -40px;
+}
+.history #his{
+
+  height: 100px;
+}
+.history span{
+  font-weight: bold;
+}
+.history h3{
+  padding-left: 100px;
+  margin-top: -40px;
+}
+
+.services p{
+  display: inline;
+  font-size: 30px;
+}
+.services .row{
+  padding-top: 20px;
+  padding-left: 100px;
+}
+.services .col-md-5{  
+  vertical-align:middle; 
+  height: 150px;
+  display: inline;   
+}
+.services #ser{
+  height: 100px;
+}
+.services img{
+  height: 80px;
+}
+.services a{
+  text-decoration: none;
+  color: black;
+}
+.services  h3{
+  padding-left: 100px;
+  margin-top: -40px;
+}
+
+.intern .row{
+  margin-left: 100px;
+
+}
+.intern h3{
+  padding-left: 100px;
+  margin-top: -40px;
+}
+.travel .row{
+  margin-left: 100px; 
+
+}
+.travel h3{
+  padding-left: 100px;
+  margin-top: -40px;
+}
+.fulltime .row{
+  margin-left: 100px;
+
+}
+.fulltime  h3{
+  padding-left: 100px;
+  margin-top: -40px;
+}
+.mba .row{
+  margin-left: 100px;
+
+}
+.mba  h3{
+  padding-left: 100px;
+  margin-top: -40px;
+}
+.opportunities img{ 
+  height: 100px;
+}
+.opportunities li{
+  display: none;
+}
+ .opportunities .col-md-4{
+  margin-left: 100px;
+
+}
+.opportunities .container{
+  padding-bottom: 100px;
+}
+.opportunities h3{
+  padding-left: 100px;
+  margin-top: -40px;
+}
+.opportunities .row{
+  margin-left: 100px;
+  margin-top: 50px; 
+}
+.partnerships #pa{
+  height: 100px;
+}
+.partnerships .row{
+  margin-left: 100px; 
+}
+.partnerships h3{
+  padding-left: 100px;
+  margin-top: -40px;
+}
+.colleges #col {
+  height: 100px;
+}
+.colleges .row{
+  margin-left: 100px;
+
+}
+.colleges h3{
+  padding-left: 100px;
+  margin-top: -40px;
+}
+.vedio .row{ 
+}
+.vedio h3{
+  padding-left: 100px;
+  margin-top: -40px;
+
+}
+.vedio #pho{
+  height: 250px;
+  border: 10px solid gray;
+}
+.vedio #pho:hover{
+  opacity:0.5;
+}
+.vedio a{
+  text-decoration: none;
+  color: black;
+}
+.vedio
+.sact .row{
+  margin-left: 100px;
+
+}
+ 
+.sact h3{
+  padding-left: 100px;
+  margin-top: -40px;
+}
+.sact  a{
+  text-decoration: none;
+  color: black;
+}
+.sact #pho{
+  height: 250px;
+  border: 10px solid gray;
+}
+.cact .row{
+  margin-left: 100px;
+
+}
+
+.cact .row img{
+  height: 150px;
+  border: 3px solid white;
+
+}
+.cact h3{
+  padding-left: 100px;
+  margin-top: -40px;
+}
+.iact .row{
+  margin-left: 100px;
+
+}
+.iact .row img{
+  height: 150px;
+  border: 3px solid white;
+
+
+}
+ 
+.iact h3{
+  padding-left: 100px;
+  margin-top: -40px;
+}
+.table8_6 table {
+    width:100%;
+    margin:15px;  
+}
+.table8_6 th { 
+    background-color:#3C5A91;
+    background:-o-linear-gradient(90deg, #3C5A91, #8fa0c0);
+    background:-moz-linear-gradient( center top, #3C5A91 5%, #8fa0c0 100% );
+    background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #3C5A91), color-stop(1, #8fa0c0) );
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#3C5A91', endColorstr='#8fa0c0');
+    color:white;
+}
+.table8_6,.table8_6 th,.table8_6 td
+{
+    font-size:0.95em;
+    text-align:center;
+    padding:4px;
+    border:1px solid #efefef;
+    border-collapse:collapse
+}
+.table8_6 tr:nth-child(odd){
+    background-color:#bec8da;
+    background:-o-linear-gradient(90deg, #bec8da, #f2f4f7);
+    background:-moz-linear-gradient( center top, #bec8da 5%, #f2f4f7 100% );
+    background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #bec8da), color-stop(1, #f2f4f7) );
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#bec8da', endColorstr='#f2f4f7');
+}
+.table8_6 tr:nth-child(even){
+    background-color:#fdfdfd;
+}
+
+.apply .step{
+    margin-left: 100px;
+}
+.apply .row{
+  margin-left: 100px;
+}
+.apply h3{
+  padding-left: 100px;
+  margin-top: -40px;
+}
+.apply h4{ 
+    color: black;
+    border: 5px lightgray solid;
+    background-color: lightgray;  
+    border-radius: 5px; 
+    padding: 5px 5px 5px 5px; 
+    width: 80px;
+
+}
+.apply #ap{
+  height: 100px;
+}
+.contact iframe { 
+  margin-left: -50px; 
+  margin-top: 100px;
+
+}
+.contact span{
+
+  padding-left: 12px;
+}
+.contact p{
+    padding-left: 130px;    
+}
+.contact #em{
+  height: 100px;
+}
+.contact h3{
+  padding-left: 100px;
+  margin-top: -40px;
+}
+.media{ 
+    text-align: center; 
+}
+.media img{
+    height: 100px;
+    padding-left: 0px;
+}
+.media table{
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+.media table td{
+    height: 130px;
+}
+.media img:hover{
+    height: 130px;  
+    border-radius: 5px;
+}
+.media h3{
+  padding-left: 100px;
+  margin-top: -40px;
+}
+
+.showpic {
+  top: -80px;
+  position: fixed;
+   border: gray;
+   margin: 5% auto; 
+   left: 0;
+  right: 0; 
+  bottom: 0;
+  width: 100%;
+  height: 1000px;
+visibility: hidden;
+  z-index: 999;
+   background: rgba(0,0,0 ,0.8); 
+
+ 
+ 
+}
+
+.showpic2  img {  
+margin-top: 60px; 
+  border: 10px solid white;
+  border-radius: 3px;
+  
+  height: 500px;
+}
+.showpic2 {
+  top: -80px;
+  position: fixed;
+   border: gray;
+   margin: 5% auto; 
+   left: 0;
+  right: 0; 
+  bottom: 0;
+  width: 100%;
+  height: 1000px; 
+  z-index: 999;
+  
+visibility: hidden;
+   background: rgba(0,0,0 ,0.8); 
+
+ 
+ 
+}
+
+.showpic  img {  
+margin-top: 60px; 
+  border: 10px solid white;
+  border-radius: 3px;
+  
+  height: 500px;
+}
+.showved {
+  top: -90px;
+  position: fixed;
+   border: gray;
+   margin: 5% auto; 
+   left: 0;
+  right: 0; 
+  bottom: 0;
+  width: 100%;
+  height: 1000px; 
+
+  z-index: 999;
+  
+visibility: hidden;
+   background: rgba(0,0,0,0.8); 
+
+ 
+ 
+}
+
+.showved iframe {  
+    margin-top: 100px; 
+
+  border: 5px solid white;
+  border-radius: 3px;
+   
+}
+.non{
+  height: 30px;
+}
+#af2 {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-align: center;
+  background-color:  #888; 
+}
+#af2 span{
+  color: red;
+}
+
+.applyform{    
+  text-align: left;  
+}
+.applyform p{ 
+  display: inline;
+
+}
+
+.applyform input{ 
+  height: 30px;
+  width: 100px;
+  display: inline;
+}
+.applyform #em{
+  width: 200px;
+}
+.applyform table tr td{
+  padding: 10px;
+}
+.applyform table textarea{ 
+  height: 200px; 
+ 
+}
+.applyonline{
+  text-align: center;
+}
+.applyonline span{
+  color: red;
+}
+.applyonline input{ 
+  text-align: center;
+  width: 250px;
+}
+.applyonline table td tr{
+  text-align: left;
+}
+.applyonline #t1 td{
+  text-align: center;
+  padding: 10px;
+
+}
+.applyonline #t2 td{
+  width: auto;
+  border-radius: 10%;
+  border: 2px solid lightgray;
+}
+.applyonline #t2 td tr{
+  text-align: left;
+}
+.applyonline #cb{ 
+  width: 20px;
+}
+ .footer{
+  background-color: #888;
+  height: 30px; 
+  text-align : center;
+  color: white;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  border: none;
+
+
+}
+.footer p{
+
+  font-weight: bold;
+  font-size: 15px;
+  height: 30px;
+  color:white; 
+  text-align: center;
+}
+.upage{
+  text-align: center;
+}
+.upage table td, tr{
+  font-size: 15px;
+}
+.panel{ 
+  margin: 0 auto; 
+}
+.panel p{
+  display: inline;
+}
+.line{
+  background-color: gray;
+  width: 100%;
+  height: 30px;
+}
+
+.containers {   
+  width: 600px;
+  padding-top: 50px;
+  margin-left: 400px;
+}
+
+
+.posts{  
+  background-color: #E0E0E0 ;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: 3px solid #707070;
+  border-radius: 5px; 
+  height: auto; 
+
+}
+.posts .ntitle{ 
+  background-color: white;
+  margin-left: -10px;
+  margin-right: -10px;
+  margin-top: -10px;
+  height: 40px;
+}
+.posts h3{
+
+  padding-top: 0px; 
+  display: inline;
+  padding-left: 20px;  
+  text-align: left;
+}
+.posts h4{ 
+
+  padding-top: 0px;
+  display: inline;
+  float: right;
+    text-align:right; 
+    padding-right: 20px;
+
+}
+ 
+.posts p{
+  font-size: 18px;
+  text-align: left;
+  padding-top: 10px;
+  padding-left: 10px; 
+  
+}
+
+
+

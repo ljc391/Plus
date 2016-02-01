@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <link href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/shift.css" rel="stylesheet">
+    <link rel="stylesheet" href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/bootstrap.css">
+    <link rel="stylesheet" href="../main.css">
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Raleway" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <meta charset="UTF-8">
+    <title>PLUSCareer</title>
+    <script type="text/javascript">
+        $(function(){
+            $("ul.navigation > li:has(ul) > a").append('<div class="arrow-bottom"></div>');
+            $("ul.navigation > li ul li:has(ul) > a").append('<div class="arrow-right"></div>');
+        });
+        $(document).ready(function(){
+            resizeDiv();
+            });
+
+        window.onresize = function(event) {
+            resizeDiv();
+        }
+
+        function resizeDiv() {
+        vpw = $(window).width();
+        vph = $(window).height()-200;
+        rowh = $('.colleges').height();
+        if(rowh<vph){
+            $('.colleges').css({'height': vph + 'px'});
+        }
+        };
+    </script>
+ <body leftmargin="2" topmargin="0" marginwidth="0" marginheight="0" oncoNtextmenu="return false" ondragstart="return false" onselectstart ="return false" onselect="document.selection.empty()" oncopy="document.selection.empty()" onbeforecopy="return false" onmouseup="document.selection.empty()">
+  </head>
+
+  <body>
+   <div class ="title">
+        <h1><a href = "index.php"><img src = "../plusicon.jpg" height = "100px">美國就業專業規劃公司，你的職業生涯從此開始 </a></h1>
+        <p><a href="https://www.facebook.com/PLUSCareerInc/?fref=ts"><img src="../ficon.png" width = "35px" id= "icon"></a>&nbsp<a href="https://www.linkedin.com/company/9299443?trk=tyah&trkInfo=clickedVertical%3Acompany%2CclickedEntityId%3A9299443%2Cidx%3A1-1-1%2CtarId%3A1448896272608%2Ctas%3ACOED%20group"><img src="../linkicon.png" width = "35px" id= "icon"></a>&nbsp<a href="../wechet.html" target="_blank" width= "400px"><img src="../wechaticon.jpeg" width = "35px" id= "icon"></a></p>
+        <p><a href="../english/index.php" id ="lan">English</a>|<a href="index.php" id ="lan">繁體中文</a>|<a href="../index.php" id ="lan">简体中文</a>|<a href="login.php" id ="lan">Login</a> </p>
+    </div>
+    <div class = "nav">
+        <ul class="navigation" align = "center">
+            <li><a href="index.php">首頁</a></li>
+            <li>
+                <a  >關於我們</a>
+                <ul>
+                    <li><a href="company.html">關於公司</a></li>
+                    <li><a href="history.html">公司發展</a></li>
+                </ul>
+            </li>
+            <li><a href="services.html">服務項目</a>
+                <ul>
+                    <li><a href="intern.html">實習</a></li>
+                    <li><a href="travel.html">遊學打工</a></li>
+                    <li><a href="fulltime.html">全職就業</a></li>
+                    <li><a href="mba.html">MBA就業</a></li>
+                </ul>
+
+
+            </li> 
+            <li><a >學生專區</a>
+                <ul>
+                    <li><a href="opportunities.html">就業機會</a></li>
+                    <li><a href="apply.html">如何申請</a></li>
+                </ul>
+            </li>
+            <li><a>合作夥伴</a>
+                <ul>
+                    <li><a href="partnerships.html">企業專區</a></li>
+                    <li><a href="colleges.html">大專院校專區</a></li>
+                </ul>
+            </li> 
+             <li><a href="vedio.html">相簿</a></li> 
+            <li><a href="contact.html">聯繫我們</a></li> 
+        </ul>
+    </div>
+
+    <div class = "colleges">
+        <div class = "container">
+            <div class = "t">
+            <h1><img src="../coll.png" id = "col">大專院校專區</h1> 
+            <h3>Colleges/Universities</h3>
+             
+        </div>
+            <div class = "row">
+                <div class = "col-md-6"> 
+                    <p>我們在各大專院校陸續承辦一系列職涯規劃講座。
+幫助華人學生更好瞭解美國就業行情，並提升在美
+就業競爭力。如貴校對我們的講座有興趣，可與我們
+聯繫。</p>
+
+                    <a href="SeminarProposal.pdf" target="_blank">詳情請點擊</a>
+
+                </div>
+                <div class = "col-md-6"> 
+                    <p>We have a series of seminars and speeches in 
+                    different colleges/ universities helping Chinese 
+                    students have better insight on job environment in 
+                    the U.S. and increase their competitiveness in the U.
+                    S.  If your schools are interested in our seminars, 
+                    please feel free to contact us.</p>
+
+                    <a href="SeminarProposal.pdf" target="_blank">Read More</a>
+
+                </div>
+                
+
+            </div>
+              
+
+        </div>
+
+
+    </div>
+
+
+    <div class = "footer">
+    <div class="container"> 
+    <p>&copy; 2015 PlusCareer. All rights reserved.</p>
+  </div> 
+  </div>
+
+  </body>
+</html>

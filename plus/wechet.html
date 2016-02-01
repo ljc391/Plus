@@ -1,0 +1,29 @@
+<?php
+$mysqli = new mysqli("localhost", "root", "root", "PlusCareer");
+
+/* check connection */
+if (mysqli_connect_errno()) {
+    printf("Connect failed: %s\n", mysqli_connect_error());
+    exit();
+}
+session_start();
+?>
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <link href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/shift.css" rel="stylesheet">
+    <link rel="stylesheet" href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/bootstrap.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Raleway" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <meta charset="UTF-8">
+    <title>PLUSCareer</title> 
+   <body leftmargin="2" topmargin="0" marginwidth="0" marginheight="0" oncoNtextmenu="return false" ondragstart="return false" onselectstart ="return false" onselect="document.selection.empty()" oncopy="document.selection.empty()" onbeforecopy="return false" onmouseup="document.selection.empty()">
+  </head>
+
+  <body> 
+    <img src="QR.jpeg" width ="400px" align="center">
+
+  </body>
+</html>

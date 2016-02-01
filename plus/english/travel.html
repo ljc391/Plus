@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <link href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/shift.css" rel="stylesheet">
+    <link rel="stylesheet" href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/bootstrap.css">
+    <link rel="stylesheet" href="../main.css">
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Raleway" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <meta charset="UTF-8">
+    <title>PLUSCareer</title>
+    <script type="text/javascript">
+        $(function(){
+            $("ul.navigation > li:has(ul) > a").append('<div class="arrow-bottom"></div>');
+            $("ul.navigation > li ul li:has(ul) > a").append('<div class="arrow-right"></div>');
+      
+        });
+
+        $(document).ready(function(){
+            resizeDiv();
+            });
+
+        window.onresize = function(event) {
+            resizeDiv();
+        }
+
+        function resizeDiv() {
+        vpw = $(window).width();
+        vph = $(window).height()-200;
+        rowh = $('.travel').height();
+        if(rowh<vph){
+            $('.travel').css({'height': vph + 'px'});
+        }
+        };
+    </script>
+ <body leftmargin="2" topmargin="0" marginwidth="0" marginheight="0" oncoNtextmenu="return false" ondragstart="return false" onselectstart ="return false" onselect="document.selection.empty()" oncopy="document.selection.empty()" onbeforecopy="return false" onmouseup="document.selection.empty()">
+  </head>
+
+  <body>
+    <div class ="title">
+        <h1><a href = "index.php"><img src = "../plusicon.jpg" height = "100px">Professional Career Development </a></h1>
+        <p><a href="https://www.facebook.com/PLUSCareerInc/?fref=ts"><img src="../ficon.png" width = "35px" id= "icon"></a>&nbsp<a href="https://www.linkedin.com/company/9299443?trk=tyah&trkInfo=clickedVertical%3Acompany%2CclickedEntityId%3A9299443%2Cidx%3A1-1-1%2CtarId%3A1448896272608%2Ctas%3ACOED%20group"><img src="../linkicon.png" width = "35px" id= "icon"></a>&nbsp<a href="../wechet.html" target="_blank" width= "400px"><img src="../wechaticon.jpeg" width = "35px" id= "icon"></a></p>
+        <p><a href="index.php" id ="lan">English</a>|<a href="../chinese/index.php" id ="lan">繁體中文</a>|<a href="../index.php" id ="lan">简体中文</a>|<a href="login.php" id ="lan">Login</a> </p>
+    </div>
+    <div class = "nav">
+        <ul class="navigation" align = "center">
+            <li><a href="index.php">Home</a></li>
+            <li>
+                <a  >About Us</a>
+                <ul>
+                    <li><a href="company.html">Company</a></li>
+                    <li><a href="history.html">History</a></li>
+                </ul>
+            </li>
+            <li><a href="services.html">Service</a>
+                <ul>
+                    <li><a href="intern.html">Intership</a></li>
+                    <li><a href="travel.html">Work & Travel</a></li>
+                    <li><a href="fulltime.html">Full-Time</a></li>
+                    <li><a href="mba.html">MBA Career</a></li>
+                </ul>
+
+
+            </li> 
+            <li><a >Students</a>
+                <ul>
+                    <li><a href="opportunities.html">Opportunities</a></li>
+                    <li><a href="apply.html">How to Apply</a></li>
+                </ul>
+            </li>
+            <li><a>Partnerships</a>
+                <ul>
+                    <li><a href="partnerships.html">Corporations/</br>Employers</a></li>
+                    <li><a href="colleges.html">Colleges/</br>Universities</a></li>
+                </ul>
+            </li> 
+             <li><a href="vedio.html">Gallery</a></li> 
+            <li><a href="contact.html">Contact Us</a></li> 
+        </ul>
+    </div>
+
+    <div class = "travel">
+        <div class = "container">
+            <h1><img src="../travel.png" height="100px;">Work & Travel Program</h1>
+            <h3></br></h3>
+            <div class = "row"> 
+                <div class = "col-md-6"> 
+                    <p>我们为海外学生提供在美工作游学并帮忙办理
+                    B1/B2/J1签证。目前已有超过500家企业与我们合
+                    作，为海外学生获取在美工作经验的机会。</p>
+
+
+
+                    <p>学生可享有一对一的职业规划咨询，简历修改，面试
+                    指导，公司配对，网络申请，面试安排，面试后续追
+                    踪等服务。帮助学生顺利在美国获取实习机会。</p> 
+                    <a href="opportunities.html" align = "right">就业机会查询>>></a> 
+                </div>
+                <div class = "col-md-6"> 
+                    <p>We offer overseas students work and travel 
+                    programs and assist with B1/B2/J1 Visa application.  
+                    We have accumulated more than 500 partnership 
+                    companies, helping overseas students experience 
+                    different work environment in the U.S.</p>
+                    <p>Students can have one-on-one career consulting 
+                    service, resume revision, mock interview, online 
+                    application, interview arrangement, and follow up 
+                    services, etc.  We aim to help students get internship 
+                    in the U.S.</p>
+                    <a href="opportunities.html" align = "right">Read More>>></a> 
+                </div>
+            </div>
+ 
+
+        </div>
+    </div>
+
+    <div class = "footer">
+    <div class="container"> 
+    <p>&copy; 2015 PlusCareer. All rights reserved.</p>
+  </div> 
+  </div>
+
+   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+  </body>
+</html>

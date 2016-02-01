@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <link href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/shift.css" rel="stylesheet">
+    <link rel="stylesheet" href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/bootstrap.css">
+    <link rel="stylesheet" href="../main.css">
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Raleway" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <meta charset="UTF-8">
+    <title>PLUSCareer</title>
+    <script type="text/javascript">
+        $(function(){
+            $("ul.navigation > li:has(ul) > a").append('<div class="arrow-bottom"></div>');
+            $("ul.navigation > li ul li:has(ul) > a").append('<div class="arrow-right"></div>');
+      
+        });
+        $(document).ready(function(){
+            resizeDiv();
+            });
+
+        window.onresize = function(event) {
+            resizeDiv();
+        }
+
+        function resizeDiv() {
+        vpw = $(window).width();
+        vph = $(window).height()-200;
+        rowh = $('.mba').height();
+        if(rowh<vph){
+            $('.mba').css({'height': vph + 'px'});
+        }
+        };
+    </script>
+ <body leftmargin="2" topmargin="0" marginwidth="0" marginheight="0" oncoNtextmenu="return false" ondragstart="return false" onselectstart ="return false" onselect="document.selection.empty()" oncopy="document.selection.empty()" onbeforecopy="return false" onmouseup="document.selection.empty()">
+  </head>
+
+  <body>
+    
+    <div class ="title">
+        <h1><a href = "index.php"><img src = "../plusicon.jpg" height = "100px">美國就業專業規劃公司，你的職業生涯從此開始 </a></h1>
+        <p><a href="https://www.facebook.com/PLUSCareerInc/?fref=ts"><img src="../ficon.png" width = "35px" id= "icon"></a>&nbsp<a href="https://www.linkedin.com/company/9299443?trk=tyah&trkInfo=clickedVertical%3Acompany%2CclickedEntityId%3A9299443%2Cidx%3A1-1-1%2CtarId%3A1448896272608%2Ctas%3ACOED%20group"><img src="../linkicon.png" width = "35px" id= "icon"></a>&nbsp<a href="../wechet.html" target="_blank" width= "400px"><img src="../wechaticon.jpeg" width = "35px" id= "icon"></a></p>
+        <p><a href="../english/index.php" id ="lan">English</a>|<a href="index.php" id ="lan">繁體中文</a>|<a href="../index.php" id ="lan">简体中文</a>|<a href="login.php" id ="lan">Login</a> </p>
+    </div>
+    <div class = "nav">
+        <ul class="navigation" align = "center">
+            <li><a href="index.php">首頁</a></li>
+            <li>
+                <a  >關於我們</a>
+                <ul>
+                    <li><a href="company.html">關於公司</a></li>
+                    <li><a href="history.html">公司發展</a></li>
+                </ul>
+            </li>
+            <li><a href="services.html">服務項目</a>
+                <ul>
+                    <li><a href="intern.html">實習</a></li>
+                    <li><a href="travel.html">遊學打工</a></li>
+                    <li><a href="fulltime.html">全職就業</a></li>
+                    <li><a href="mba.html">MBA就業</a></li>
+                </ul>
+
+
+            </li> 
+            <li><a >學生專區</a>
+                <ul>
+                    <li><a href="opportunities.html">就業機會</a></li>
+                    <li><a href="apply.html">如何申請</a></li>
+                </ul>
+            </li>
+            <li><a>合作夥伴</a>
+                <ul>
+                    <li><a href="partnerships.html">企業專區</a></li>
+                    <li><a href="colleges.html">大專院校專區</a></li>
+                </ul>
+            </li> 
+             <li><a href="vedio.html">相簿</a></li> 
+            <li><a href="contact.html">聯繫我們</a></li> 
+        </ul>
+    </div>
+    <div class = "mba">
+        <div class = "container">
+            <h1><img src="../mba.png" height="100px;">MBA就業項目</h1>
+            <h3>MBA + Career Program</h3>
+            <div class = "row"> 
+                <div class = "col-md-6"> 
+                    <p>我們為海外學生提供MBA課程，並在畢業後安排工
+作機會。目前已與加州的學校合作，讓學生可以受到
+更專業的教育，提升在美就業競爭力。</p>
+
+                    <p>學生可享有一對一的職涯規劃諮詢，簡歷修改，面試
+指導，公司配對，網路申請，安排面試，面試後後續
+追蹤等服務。幫助學生順利在美國獲取全職工作機
+會！</p> 
+                    <a href="opportunities.html" align = "right">就业机会查询>>></a> 
+                </div>
+                <div class = "col-md-6"> 
+                    <p>We offer MBA programs and also assist with their job
+                    application upon graduation. We have partnership 
+                    with one of the California schools, so that students 
+                    can receive more professional education and 
+                    increase our competitiveness in the U.S. </p>
+
+                    <p>Students can have one-on-one career consulting 
+                        service, resume revision, mock interview, online 
+                    application, interview arrangement, and follow up 
+                    services, etc.  We aim to help students get full-time 
+                    jobs in the U.S.</p> 
+                    <a href="opportunities.html" align = "right">Read More>>></a> 
+                </div>
+            </div>
+ 
+
+        </div>
+    </div>
+
+    <div class = "footer">
+    <div class="container"> 
+    <p>&copy; 2015 PlusCareer. All rights reserved.</p>
+  </div> 
+  </div>
+
+   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+  </body>
+</html>

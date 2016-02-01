@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <link href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/shift.css" rel="stylesheet">
+    <link rel="stylesheet" href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/bootstrap.css">
+    <link rel="stylesheet" href="../main.css">
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Raleway" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <meta charset="UTF-8">
+    <title>PLUSCareer</title>
+    <script type="text/javascript">
+        $(function(){
+            $("ul.navigation > li:has(ul) > a").append('<div class="arrow-bottom"></div>');
+            $("ul.navigation > li ul li:has(ul) > a").append('<div class="arrow-right"></div>');
+        });
+        $(document).ready(function(){
+            resizeDiv();
+            });
+
+        window.onresize = function(event) {
+            resizeDiv();
+        }
+
+        $(document).ready(function(){
+            resizeDiv();
+            });
+
+        window.onresize = function(event) {
+            resizeDiv();
+        }
+
+        function resizeDiv() {
+        vpw = $(window).width();
+        vph = $(window).height()-200;
+        rowh = $('.partnerships').height();
+        if(rowh<vph){
+            $('.partnerships').css({'height': vph + 'px'});
+        }
+        };
+    </script>
+ <body leftmargin="2" topmargin="0" marginwidth="0" marginheight="0" oncoNtextmenu="return false" ondragstart="return false" onselectstart ="return false" onselect="document.selection.empty()" oncopy="document.selection.empty()" onbeforecopy="return false" onmouseup="document.selection.empty()">
+  </head>
+
+  <body>
+   <div class ="title">
+        <h1><a href = "index.php"><img src = "../plusicon.jpg" height = "100px">美國就業專業規劃公司，你的職業生涯從此開始 </a></h1>
+        <p><a href="https://www.facebook.com/PLUSCareerInc/?fref=ts"><img src="../ficon.png" width = "35px" id= "icon"></a>&nbsp<a href="https://www.linkedin.com/company/9299443?trk=tyah&trkInfo=clickedVertical%3Acompany%2CclickedEntityId%3A9299443%2Cidx%3A1-1-1%2CtarId%3A1448896272608%2Ctas%3ACOED%20group"><img src="../linkicon.png" width = "35px" id= "icon"></a>&nbsp<a href="../wechet.html" target="_blank" width= "400px"><img src="../wechaticon.jpeg" width = "35px" id= "icon"></a></p>
+        <p><a href="../english/index.php" id ="lan">English</a>|<a href="index.php" id ="lan">繁體中文</a>|<a href="../index.php" id ="lan">简体中文</a>|<a href="login.php" id ="lan">Login</a> </p>
+    </div>
+    <div class = "nav">
+        <ul class="navigation" align = "center">
+            <li><a href="index.php">首頁</a></li>
+            <li>
+                <a  >關於我們</a>
+                <ul>
+                    <li><a href="company.html">關於公司</a></li>
+                    <li><a href="history.html">公司發展</a></li>
+                </ul>
+            </li>
+            <li><a href="services.html">服務項目</a>
+                <ul>
+                    <li><a href="intern.html">實習</a></li>
+                    <li><a href="travel.html">遊學打工</a></li>
+                    <li><a href="fulltime.html">全職就業</a></li>
+                    <li><a href="mba.html">MBA就業</a></li>
+                </ul>
+
+
+            </li> 
+            <li><a >學生專區</a>
+                <ul>
+                    <li><a href="opportunities.html">就業機會</a></li>
+                    <li><a href="apply.html">如何申請</a></li>
+                </ul>
+            </li>
+            <li><a>合作夥伴</a>
+                <ul>
+                    <li><a href="partnerships.html">企業專區</a></li>
+                    <li><a href="colleges.html">大專院校專區</a></li>
+                </ul>
+            </li> 
+             <li><a href="vedio.html">相簿</a></li> 
+            <li><a href="contact.html">聯繫我們</a></li> 
+        </ul>
+    </div>
+
+    <div class = "partnerships">
+        <div class = "container">
+            <h1><img src="../part.png" id = "pa">企業專區</h1>
+            <h3>Corporations/Employers</h3>
+             
+            <div class = "row">
+                <div class = "col-md-6">
+                    <h4>我們為企業提供專業的招聘服務，以下是我們為企
+業提供的服務： </h4>          
+                    <li>免費招聘服務</li>
+                    <p>針對合作的企業，本公司不收取
+任何服務費用，幫企業免費篩選人才！</p> 
+                    <li>大量的學生資源：</li>
+                    <p> 每年均有許多學生加入我們的
+就業計畫，擁有豐富的人才資源。</p>  
+                    <li>推薦合適的人才</li>
+                    <p>根據企業的需求，為企業推薦
+最合適的人選。</p>   <li>節省企業時間和人力成本</li>
+                    <p>為您物色人才, 減少成
+本。</p>
+                </div>
+                <div class = "col-md-6">
+                    <h4>We offer professional recruiting service to employers:</h4>          
+                    <li>FREE recruiting package: We do not charge any 
+recruiting fee for our partnership companies.</li> 
+                    <li>LARGE candidate pool: Every year we have 
+many students enroll our internship/full-time 
+programs, giving us sufficient student data base.</li> 
+                    <li>PRFOESSIONAL recruiting process: We select 
+candidates based on employers’ requirements.</li>
+                    <li>SAVING your time and cost: We help you find 
+the right candidate with limited time and cost.  </li>
+   
+
+                </div>
+                
+
+            </div>
+              
+
+        </div>
+
+
+    </div>
+
+    <div class = "footer">
+    <div class="container"> 
+    <p>&copy; 2015 PlusCareer. All rights reserved.</p>
+  </div> 
+  </div>
+
+
+  </body>
+</html>

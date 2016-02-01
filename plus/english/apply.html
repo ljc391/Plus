@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <link href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/shift.css" rel="stylesheet">
+    <link rel="stylesheet" href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/bootstrap.css">
+    <link rel="stylesheet" href="../main.css">
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Raleway" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <meta charset="UTF-8">
+    <title>PLUSCareer</title>
+    <script type="text/javascript">
+        $(function(){
+            $("ul.navigation > li:has(ul) > a").append('<div class="arrow-bottom"></div>');
+            $("ul.navigation > li ul li:has(ul) > a").append('<div class="arrow-right"></div>');
+        });
+        $(document).ready(function(){
+            resizeDiv();
+            });
+
+        window.onresize = function(event) {
+            resizeDiv();
+        }
+
+        function resizeDiv() {
+        vpw = $(window).width();
+        vph = $(window).height()-200;
+        rowh = $('.apply').height();
+        if(rowh<vph){
+            $('.apply').css({'height': vph + 'px'});
+        }
+        };
+    </script>
+ 
+  </head>
+
+  <body>
+    <div class ="title">
+        <h1><a href = "index.php"><img src = "../plusicon.jpg" height = "100px">Professional Career Development </a></h1>
+        <p><a href="https://www.facebook.com/PLUSCareerInc/?fref=ts"><img src="../ficon.png" width = "35px" id= "icon"></a>&nbsp<a href="https://www.linkedin.com/company/9299443?trk=tyah&trkInfo=clickedVertical%3Acompany%2CclickedEntityId%3A9299443%2Cidx%3A1-1-1%2CtarId%3A1448896272608%2Ctas%3ACOED%20group"><img src="../linkicon.png" width = "35px" id= "icon"></a>&nbsp<a href="../wechet.html" target="_blank" width= "400px"><img src="../wechaticon.jpeg" width = "35px" id= "icon"></a></p>
+        <p><a href="index.php" id ="lan">English</a>|<a href="../chinese/index.php" id ="lan">繁體中文</a>|<a href="../index.php" id ="lan">简体中文</a>|<a href="login.php" id ="lan">Login</a> </p>
+    </div>
+    <div class = "nav">
+        <ul class="navigation" align = "center">
+            <li><a href="index.php">Home</a></li>
+            <li>
+                <a  >About Us</a>
+                <ul>
+                    <li><a href="company.html">Company</a></li>
+                    <li><a href="history.html">History</a></li>
+                </ul>
+            </li>
+            <li><a href="services.html">Service</a>
+                <ul>
+                    <li><a href="intern.html">Intership</a></li>
+                    <li><a href="travel.html">Work & Travel</a></li>
+                    <li><a href="fulltime.html">Full-Time</a></li>
+                    <li><a href="mba.html">MBA Career</a></li>
+                </ul>
+
+
+            </li> 
+            <li><a >Students</a>
+                <ul>
+                    <li><a href="opportunities.html">Opportunities</a></li>
+                    <li><a href="apply.html">How to Apply</a></li>
+                </ul>
+            </li>
+            <li><a>Partnerships</a>
+                <ul>
+                    <li><a href="partnerships.html">Corporations/</br>Employers</a></li>
+                    <li><a href="colleges.html">Colleges/</br>Universities</a></li>
+                </ul>
+            </li> 
+             <li><a href="vedio.html">Gallery</a></li> 
+            <li><a href="contact.html">Contact Us</a></li> 
+        </ul>
+    </div>
+    <div class = "apply">
+    	<div class = "container">
+    		<h1><img src="../apply.png" id = "ap">How to apply?</h1>
+            <h3></br></h3>
+            <div class = "row">
+                <div class = "col-md-4">
+    		<h4>Setp 1</h4>
+    		<div class ="step"> 
+    			<p>Choose a program：</br>
+				Internship Program</br>
+				H1B Full-Time Program</br>
+				Work & Travel Program</br>
+				MBA Career Program </p> 
+    		</div>
+            </div>
+            <div class = "col-md-4">
+    		<h4>Step 2</h4>
+    		<div class ="step"> 
+    			<p>Send the following info to this
+email: career@coedgroup.com</br>
+				Name</br>
+				School/Major</br>
+				Chosen Program</br>
+				Have you already graduated?</br>
+				Phone</br>
+				Email</br>
+				Resume</p> 
+    		</div>
+        </div>
+            <div class = "col-md-4">
+    		<h4>Step 3</h4>
+    		<div class ="step"> 
+    			<p>We will soon contact you once we
+receive your information. If you 
+have any questions, you can call 
+this number: 631-704-4533
+
+(Rocky Chen)</p>
+
+            </div>
+        </div>
+             
+    		</div>
+            <div calss = "row"><a href="applyonline.php">Apply Online>>></a></div>
+    	</div>
+    </div>
+
+    <div class = "footer">
+    <div class="container"> 
+    <p>&copy; 2015 PlusCareer. All rights reserved.</p>
+  </div> 
+  </div>
+ <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="../index.js"></script> <!-- Resource jQuery -->
+
+  </body>
+</html>
